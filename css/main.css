@@ -127,3 +127,36 @@
 				width:125px;
 				height:100px;
 			}
+ section.one-column {
+            margin-top:10px;
+            flex:1;
+        }
+        article.main-content.one-column-content {
+            width:100%;
+            padding:0;
+            background-color:transparent;
+        }
+        div.login-form {
+            width:350px;
+            height:250px;
+            background-color:#F1f1f1;
+            margin:150px auto 0;
+            padding:30px;
+            border-radius:5px;
+        }
+        .login-input {
+            width:100%;
+            padding:4px;
+            border-radius:5px;
+            margin-bottom:10px;
+        }
+        div#login-form {
+             margin-top:30px;
+        }
+        .login-button {
+            padding: 7px 14px;
+            font-weight: bold;
+            background-color: #CCC;
+            color: #FFF;
+            border-radius: 5px;
+        }
