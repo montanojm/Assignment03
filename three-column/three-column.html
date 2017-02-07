@@ -5,24 +5,26 @@
     <link rel="stylesheet" type="text/css" href="../css/main.css">
     <style>
     section.three-column {
-        margin-top:30px;
+        flex:1;
+        margin-top:10px;
     }
     aside.three-column {
+        height:100%;
         width:15%;
     }
     aside.sidebar-right {
         width:18%;
         background-color:#CCC;
-        height:100%;
         float:right;
-        min-height:480px;
-        padding:1%;
+        padding:0 1%;
+        height:100%;
     }
     article.three-column-content {
         width:61%;
         position:absolute;
         left:15%;
         float:none;
+        height:100%;
     }
     table.courses-table {
         width:100%;
@@ -108,11 +110,12 @@
                 <p>Hi there...</p>
             </aside>
         </section>
+        <footer class="footer box-shadow">
+            <p class="copyright">
+                (c) Created by Lucas Phan
+            </p>
+        </footer>
     </div>
-    <footer class="footer box-shadow">
-        <p class="copyright">
-            (c) Created by Lucas Phan
-        </p>
-    </footer>
+   
 </body>
 </html>
